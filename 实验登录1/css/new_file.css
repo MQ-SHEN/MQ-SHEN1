@@ -1,0 +1,134 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 背景图片 */
+#Back{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/beijin.jpg);
+	background-repeat: no-repeat; 
+	background-size:cover;/* 背景尺寸 cover图片填充网页*/
+	transition: 0.77s;/* 图片转变的时间,渐出渐入的效果 */
+}
+#Back{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/beijin1.jpg) ;
+	background-repeat: no-repeat;
+	background-size:cover;
+	transition: 0.77s; 
+}
+
+/* 登录、注册文本框 */
+.control{
+	width: 340px;
+	background: transparent;/* div颜色 */
+	position: absolute;/* 绝对定位 */
+	background-color: #00000090;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;/* 边框弧度 */
+}
+
+/* 文本框设置 */
+.content{
+	width:100%;
+}
+.content div{
+	margin: 20px 30px;/* 文本框外边距 */
+	display: none;
+	text-align: left;/* 文本位置 */
+}
+/* 表单内文字设置 */
+p{
+	color: #ffffff;/* value显示文字的颜色 */
+	margin-top: 30px;/* 文字上边框的外边距 */
+	margin-bottom: 6px;/* 文字下边框的外边距 */
+	font-size: 15px;/* 文字大小 */
+}
+/* 账号框设置 */
+.userName{
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;/* 边框弧度 */
+	border: 1px solid #ffffff;/* 边框大小 */
+	padding: 0 10px;/* 内边框 */
+	outline:none ;/* 鼠标点击是文本框是否显示 */
+	box-sizing: border-box;/* 边框边距 */
+	box-shadow: 0 0 6px white;/* 边框发光效果 */
+}
+/* 密码框设置 */
+.passWord{
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;/* 边框弧度 */
+	border: 1px solid #adadad;
+	padding: 0 10px;
+	outline:none ;/* 文本框设置 */
+	box-sizing: border-box;/* 边框边距 */
+	box-shadow: 0 0 6px white;/* 边框发光效果 */
+}
+.Email{
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;/* 边框弧度 */
+	border: 1px solid #adadad;
+	padding: 0 10px;
+	outline:none ;/* 文本框设置 */
+	box-sizing: border-box;/* 边框边距 */
+	box-shadow: 0 0 6px white;/* 边框发光效果 */
+}
+/* 登录按钮设置 */
+.login{
+	margin-top: 40px;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 20px;/* 边角的弧度 */
+	color: white;
+	border: 1px solid #fff3fd;/* 边框大小 */
+	outline:none ;/* 文本框设置 */
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);/* 按钮颜色 */
+	cursor: pointer;/* 光标变化 */
+	letter-spacing: 4px;/* 文字间的距离 */
+	margin-bottom: 40px;/* 下边距 */
+	box-shadow: 0 0 6px white;/* 边框发光效果 */
+}
+
+/* 按钮设置 */
+.active{
+	width: 30%;
+	height: 10%;
+	background: none;
+	outline:none ;/* 鼠标点击是文本框是否显示 */
+}
+.active1{
+	width: 30%;
+	height: 10%;
+	background:none;
+	outline:none ;/* 鼠标点击是文本框是否显示 */
+}
+/* 登录、注册 */
+.item div{
+	border: none;
+	outline:none ;/* 鼠标点击是文本框是否显示 */
+}
+button{
+	font-size: 18px;/* 字体大小 */
+	color: white;
+	cursor: pointer;/* 光标变化 */
+	line-height: 60px;
+	border-radius: 30px;/* 边框弧度 */
+	text-align: center;/* 居中 */
+	box-shadow: 0 0 6px white;/* 边框发光效果 */
+	margin: 5px ;/* 文本框外边距 */
+}
+/* .item .active .active1:hover{
+	background:none;
+}
+.item .active1 .active:hover{
+	background:none;
+} */
